@@ -8,12 +8,13 @@
 
 #import "MackenzieAppDelegate.h"
 #import "LetraAViewController.h"
+#import "TelaPrincipalViewController.h"
 
 @implementation MackenzieAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    LetraAViewController *viewController = [[LetraAViewController alloc]
+    TelaPrincipalViewController *viewController = [[TelaPrincipalViewController alloc]
                                            initWithNibName:nil
                                            bundle:nil];
     

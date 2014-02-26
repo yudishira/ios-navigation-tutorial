@@ -21,6 +21,36 @@
 		27156F7218B76AF50053A99C /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7118B76AF50053A99C /* NavigationTests.m */; };
 		27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7C18BA89430053A99C /* LetraAViewController.m */; };
 		27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27156F7F18BA8B210053A99C /* LetraBViewController.m */; };
+		D09EE51718BD318400BB0686 /* TelaPrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EE51518BD318400BB0686 /* TelaPrincipalViewController.m */; };
+		D09EE51818BD318400BB0686 /* TelaPrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09EE51618BD318400BB0686 /* TelaPrincipalViewController.xib */; };
+		D09EE51B18BE635900BB0686 /* Informacao.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EE51A18BE635900BB0686 /* Informacao.m */; };
+		D09EE55318BE70A100BB0686 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EE55218BE70A100BB0686 /* Singleton.m */; };
+		D09EE56E18BE80C100BB0686 /* Azera_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55418BE80C100BB0686 /* Azera_50.png */; };
+		D09EE56F18BE80C100BB0686 /* Brasilia_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55518BE80C100BB0686 /* Brasilia_50.png */; };
+		D09EE57018BE80C100BB0686 /* Corcel_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55618BE80C100BB0686 /* Corcel_50.png */; };
+		D09EE57118BE80C100BB0686 /* Dakota_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55718BE80C100BB0686 /* Dakota_50.png */; };
+		D09EE57218BE80C100BB0686 /* Eclipse_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55818BE80C100BB0686 /* Eclipse_50.png */; };
+		D09EE57318BE80C200BB0686 /* Ferrariff_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55918BE80C100BB0686 /* Ferrariff_50.png */; };
+		D09EE57418BE80C200BB0686 /* GT-R_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55A18BE80C100BB0686 /* GT-R_50.png */; };
+		D09EE57518BE80C200BB0686 /* HummerH3_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55B18BE80C100BB0686 /* HummerH3_50.png */; };
+		D09EE57618BE80C200BB0686 /* Impala_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55C18BE80C100BB0686 /* Impala_50.png */; };
+		D09EE57718BE80C200BB0686 /* Journey_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55D18BE80C100BB0686 /* Journey_50.png */; };
+		D09EE57818BE80C200BB0686 /* kombi_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55E18BE80C100BB0686 /* kombi_50.png */; };
+		D09EE57918BE80C200BB0686 /* LFA_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE55F18BE80C100BB0686 /* LFA_50.png */; };
+		D09EE57A18BE80C200BB0686 /* Mustang_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56018BE80C100BB0686 /* Mustang_50.png */; };
+		D09EE57B18BE80C200BB0686 /* NSX_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56118BE80C100BB0686 /* NSX_50.png */; };
+		D09EE57C18BE80C200BB0686 /* Omega_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56218BE80C100BB0686 /* Omega_50.png */; };
+		D09EE57D18BE80C200BB0686 /* Parati_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56318BE80C100BB0686 /* Parati_50.png */; };
+		D09EE57E18BE80C200BB0686 /* quattroporte_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56418BE80C100BB0686 /* quattroporte_50.png */; };
+		D09EE57F18BE80C200BB0686 /* Ranger_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56518BE80C100BB0686 /* Ranger_50.png */; };
+		D09EE58018BE80C200BB0686 /* S2000_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56618BE80C100BB0686 /* S2000_50.png */; };
+		D09EE58118BE80C200BB0686 /* Tucson_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56718BE80C100BB0686 /* Tucson_50.png */; };
+		D09EE58218BE80C200BB0686 /* Uno_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56818BE80C100BB0686 /* Uno_50.png */; };
+		D09EE58318BE80C200BB0686 /* Veraneio_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56918BE80C100BB0686 /* Veraneio_50.png */; };
+		D09EE58418BE80C200BB0686 /* Wrangler_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56A18BE80C100BB0686 /* Wrangler_50.png */; };
+		D09EE58518BE80C200BB0686 /* XSara_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56B18BE80C100BB0686 /* XSara_50.png */; };
+		D09EE58618BE80C200BB0686 /* Yaris_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56C18BE80C100BB0686 /* Yaris_50.png */; };
+		D09EE58718BE80C200BB0686 /* Zafira_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE56D18BE80C100BB0686 /* Zafira_50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +84,39 @@
 		27156F7C18BA89430053A99C /* LetraAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraAViewController.m; sourceTree = "<group>"; };
 		27156F7E18BA8B210053A99C /* LetraBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetraBViewController.h; sourceTree = "<group>"; };
 		27156F7F18BA8B210053A99C /* LetraBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetraBViewController.m; sourceTree = "<group>"; };
+		D09EE51418BD318400BB0686 /* TelaPrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaPrincipalViewController.h; sourceTree = "<group>"; };
+		D09EE51518BD318400BB0686 /* TelaPrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaPrincipalViewController.m; sourceTree = "<group>"; };
+		D09EE51618BD318400BB0686 /* TelaPrincipalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaPrincipalViewController.xib; sourceTree = "<group>"; };
+		D09EE51918BE635900BB0686 /* Informacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Informacao.h; sourceTree = "<group>"; };
+		D09EE51A18BE635900BB0686 /* Informacao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Informacao.m; sourceTree = "<group>"; };
+		D09EE55118BE70A100BB0686 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		D09EE55218BE70A100BB0686 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		D09EE55418BE80C100BB0686 /* Azera_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Azera_50.png; sourceTree = "<group>"; };
+		D09EE55518BE80C100BB0686 /* Brasilia_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brasilia_50.png; sourceTree = "<group>"; };
+		D09EE55618BE80C100BB0686 /* Corcel_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corcel_50.png; sourceTree = "<group>"; };
+		D09EE55718BE80C100BB0686 /* Dakota_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dakota_50.png; sourceTree = "<group>"; };
+		D09EE55818BE80C100BB0686 /* Eclipse_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eclipse_50.png; sourceTree = "<group>"; };
+		D09EE55918BE80C100BB0686 /* Ferrariff_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ferrariff_50.png; sourceTree = "<group>"; };
+		D09EE55A18BE80C100BB0686 /* GT-R_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GT-R_50.png"; sourceTree = "<group>"; };
+		D09EE55B18BE80C100BB0686 /* HummerH3_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HummerH3_50.png; sourceTree = "<group>"; };
+		D09EE55C18BE80C100BB0686 /* Impala_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Impala_50.png; sourceTree = "<group>"; };
+		D09EE55D18BE80C100BB0686 /* Journey_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Journey_50.png; sourceTree = "<group>"; };
+		D09EE55E18BE80C100BB0686 /* kombi_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kombi_50.png; sourceTree = "<group>"; };
+		D09EE55F18BE80C100BB0686 /* LFA_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LFA_50.png; sourceTree = "<group>"; };
+		D09EE56018BE80C100BB0686 /* Mustang_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mustang_50.png; sourceTree = "<group>"; };
+		D09EE56118BE80C100BB0686 /* NSX_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSX_50.png; sourceTree = "<group>"; };
+		D09EE56218BE80C100BB0686 /* Omega_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Omega_50.png; sourceTree = "<group>"; };
+		D09EE56318BE80C100BB0686 /* Parati_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parati_50.png; sourceTree = "<group>"; };
+		D09EE56418BE80C100BB0686 /* quattroporte_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quattroporte_50.png; sourceTree = "<group>"; };
+		D09EE56518BE80C100BB0686 /* Ranger_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranger_50.png; sourceTree = "<group>"; };
+		D09EE56618BE80C100BB0686 /* S2000_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S2000_50.png; sourceTree = "<group>"; };
+		D09EE56718BE80C100BB0686 /* Tucson_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tucson_50.png; sourceTree = "<group>"; };
+		D09EE56818BE80C100BB0686 /* Uno_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uno_50.png; sourceTree = "<group>"; };
+		D09EE56918BE80C100BB0686 /* Veraneio_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Veraneio_50.png; sourceTree = "<group>"; };
+		D09EE56A18BE80C100BB0686 /* Wrangler_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrangler_50.png; sourceTree = "<group>"; };
+		D09EE56B18BE80C100BB0686 /* XSara_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XSara_50.png; sourceTree = "<group>"; };
+		D09EE56C18BE80C100BB0686 /* Yaris_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yaris_50.png; sourceTree = "<group>"; };
+		D09EE56D18BE80C100BB0686 /* Zafira_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zafira_50.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +146,7 @@
 		27156F4018B76AF50053A99C = {
 			isa = PBXGroup;
 			children = (
+				D09EE55018BE68AE00BB0686 /* Imagens */,
 				27156F5218B76AF50053A99C /* Navigation */,
 				27156F6B18B76AF50053A99C /* NavigationTests */,
 				27156F4B18B76AF50053A99C /* Frameworks */,
@@ -119,6 +183,13 @@
 				27156F5318B76AF50053A99C /* Supporting Files */,
 				27156F7B18BA89430053A99C /* LetraAViewController.h */,
 				27156F7C18BA89430053A99C /* LetraAViewController.m */,
+				D09EE51918BE635900BB0686 /* Informacao.h */,
+				D09EE51A18BE635900BB0686 /* Informacao.m */,
+				D09EE55118BE70A100BB0686 /* Singleton.h */,
+				D09EE55218BE70A100BB0686 /* Singleton.m */,
+				D09EE51418BD318400BB0686 /* TelaPrincipalViewController.h */,
+				D09EE51518BD318400BB0686 /* TelaPrincipalViewController.m */,
+				D09EE51618BD318400BB0686 /* TelaPrincipalViewController.xib */,
 				27156F7E18BA8B210053A99C /* LetraBViewController.h */,
 				27156F7F18BA8B210053A99C /* LetraBViewController.m */,
 			);
@@ -152,6 +223,39 @@
 				27156F6E18B76AF50053A99C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09EE55018BE68AE00BB0686 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE55418BE80C100BB0686 /* Azera_50.png */,
+				D09EE55518BE80C100BB0686 /* Brasilia_50.png */,
+				D09EE55618BE80C100BB0686 /* Corcel_50.png */,
+				D09EE55718BE80C100BB0686 /* Dakota_50.png */,
+				D09EE55818BE80C100BB0686 /* Eclipse_50.png */,
+				D09EE55918BE80C100BB0686 /* Ferrariff_50.png */,
+				D09EE55A18BE80C100BB0686 /* GT-R_50.png */,
+				D09EE55B18BE80C100BB0686 /* HummerH3_50.png */,
+				D09EE55C18BE80C100BB0686 /* Impala_50.png */,
+				D09EE55D18BE80C100BB0686 /* Journey_50.png */,
+				D09EE55E18BE80C100BB0686 /* kombi_50.png */,
+				D09EE55F18BE80C100BB0686 /* LFA_50.png */,
+				D09EE56018BE80C100BB0686 /* Mustang_50.png */,
+				D09EE56118BE80C100BB0686 /* NSX_50.png */,
+				D09EE56218BE80C100BB0686 /* Omega_50.png */,
+				D09EE56318BE80C100BB0686 /* Parati_50.png */,
+				D09EE56418BE80C100BB0686 /* quattroporte_50.png */,
+				D09EE56518BE80C100BB0686 /* Ranger_50.png */,
+				D09EE56618BE80C100BB0686 /* S2000_50.png */,
+				D09EE56718BE80C100BB0686 /* Tucson_50.png */,
+				D09EE56818BE80C100BB0686 /* Uno_50.png */,
+				D09EE56918BE80C100BB0686 /* Veraneio_50.png */,
+				D09EE56A18BE80C100BB0686 /* Wrangler_50.png */,
+				D09EE56B18BE80C100BB0686 /* XSara_50.png */,
+				D09EE56C18BE80C100BB0686 /* Yaris_50.png */,
+				D09EE56D18BE80C100BB0686 /* Zafira_50.png */,
+			);
+			name = Imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +334,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09EE57E18BE80C200BB0686 /* quattroporte_50.png in Resources */,
 				27156F5718B76AF50053A99C /* InfoPlist.strings in Resources */,
+				D09EE57818BE80C200BB0686 /* kombi_50.png in Resources */,
 				27156F5F18B76AF50053A99C /* Images.xcassets in Resources */,
+				D09EE57218BE80C100BB0686 /* Eclipse_50.png in Resources */,
+				D09EE57F18BE80C200BB0686 /* Ranger_50.png in Resources */,
+				D09EE57D18BE80C200BB0686 /* Parati_50.png in Resources */,
+				D09EE57C18BE80C200BB0686 /* Omega_50.png in Resources */,
+				D09EE58418BE80C200BB0686 /* Wrangler_50.png in Resources */,
+				D09EE57A18BE80C200BB0686 /* Mustang_50.png in Resources */,
+				D09EE56E18BE80C100BB0686 /* Azera_50.png in Resources */,
+				D09EE57618BE80C200BB0686 /* Impala_50.png in Resources */,
+				D09EE58218BE80C200BB0686 /* Uno_50.png in Resources */,
+				D09EE58318BE80C200BB0686 /* Veraneio_50.png in Resources */,
+				D09EE58718BE80C200BB0686 /* Zafira_50.png in Resources */,
+				D09EE57418BE80C200BB0686 /* GT-R_50.png in Resources */,
+				D09EE57518BE80C200BB0686 /* HummerH3_50.png in Resources */,
+				D09EE56F18BE80C100BB0686 /* Brasilia_50.png in Resources */,
+				D09EE58518BE80C200BB0686 /* XSara_50.png in Resources */,
+				D09EE57018BE80C100BB0686 /* Corcel_50.png in Resources */,
+				D09EE57B18BE80C200BB0686 /* NSX_50.png in Resources */,
+				D09EE57718BE80C200BB0686 /* Journey_50.png in Resources */,
+				D09EE57118BE80C100BB0686 /* Dakota_50.png in Resources */,
+				D09EE58018BE80C200BB0686 /* S2000_50.png in Resources */,
+				D09EE57318BE80C200BB0686 /* Ferrariff_50.png in Resources */,
+				D09EE51818BD318400BB0686 /* TelaPrincipalViewController.xib in Resources */,
+				D09EE57918BE80C200BB0686 /* LFA_50.png in Resources */,
+				D09EE58118BE80C200BB0686 /* Tucson_50.png in Resources */,
+				D09EE58618BE80C200BB0686 /* Yaris_50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09EE51B18BE635900BB0686 /* Informacao.m in Sources */,
 				27156F5D18B76AF50053A99C /* MackenzieAppDelegate.m in Sources */,
 				27156F7D18BA89430053A99C /* LetraAViewController.m in Sources */,
 				27156F8018BA8B210053A99C /* LetraBViewController.m in Sources */,
+				D09EE55318BE70A100BB0686 /* Singleton.m in Sources */,
+				D09EE51718BD318400BB0686 /* TelaPrincipalViewController.m in Sources */,
 				27156F5918B76AF50053A99C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +588,7 @@
 				27156F7718B76AF50053A99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27156F7818B76AF50053A99C /* Build configuration list for PBXNativeTarget "NavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +597,7 @@
 				27156F7A18B76AF50053A99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
