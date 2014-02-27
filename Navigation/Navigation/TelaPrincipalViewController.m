@@ -23,8 +23,9 @@ static int indice = 0;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        UIImage *image = [UIImage imageNamed:@"Azera_50"];
-        [[Singleton sharedInstance]insereCarro:@"A" Modelo:@"Azera" Marca:@"Hyundai" Imagem:image];
+//        UIImage *image = [UIImage imageNamed:@"Azera_50"];
+//        [[Singleton sharedInstance]insereCarro:@"A" Modelo:@"Azera" Marca:@"Hyundai" Imagem:image];
+        [[Singleton sharedInstance]popula];
     }
     return self;
 }
@@ -33,9 +34,19 @@ static int indice = 0;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    Singleton *s = [Singleton sharedInstance];
-    NSMutableArray *inventario = [s inventario];
-    Informacao *i = [inventario objectAtIndex:indice];
+    
+    if (indice != 0) {
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRewind target:self action:@selector(telaAnterior)];
+    }
+    if (indice != 25) {
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward target:self action:@selector(proximaTela:)];
+    }
+    
+//    Singleton *s = [Singleton sharedInstance];
+//    NSMutableArray *inventario = [s inventario];
+//    Informacao *i = [inventario objectAtIndex:indice];
+    
+    Informacao *i = [[[Singleton sharedInstance]inventario]objectAtIndex:indice];
     
     [self setTitle:i.letra];
     
@@ -45,6 +56,8 @@ static int indice = 0;
     _nomeMarca.text = i.marca;
     
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,5 +65,23 @@ static int indice = 0;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)proximaTela:(id)sender
+{
+    indice++;
+    
+    TelaPrincipalViewController *proxTela = [[TelaPrincipalViewController alloc]init];
+    
+    [[self navigationController] pushViewController:proxTela animated:YES];
+    
+}
+                                                 
+-(void)telaAnterior
+{
+    indice--;
+    
+    [[self navigationController] popViewControllerAnimated:YES];
+}
+
 
 @end

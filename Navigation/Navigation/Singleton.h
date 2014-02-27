@@ -19,6 +19,6 @@
 
 +(Singleton *)sharedInstance;
 
-
+-(void)popula;
 
 @end
