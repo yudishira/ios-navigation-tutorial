@@ -9,6 +9,7 @@
 #import "TelaPrincipalViewController.h"
 #import "Singleton.h"
 #import "Informacao.h"
+#include <time.h>
 
 @interface TelaPrincipalViewController ()
 
@@ -34,12 +35,51 @@ static int indice = 0;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    int x;
+    
     
     if (indice != 0) {
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRewind target:self action:@selector(telaAnterior)];
     }
     if (indice != 25) {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward target:self action:@selector(proximaTela:)];
+    }
+    srand( (unsigned)time(NULL) );
+    
+    x = 1 + (rand()%12);
+    
+    if (x % 12 == 1) {
+        self.navigationController.navigationBar.barTintColor = [UIColor lightGrayColor];
+    }
+    if (x % 12 == 2) {
+        self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+    }
+    if (x % 12 == 3) {
+        self.navigationController.navigationBar.barTintColor = [UIColor grayColor];
+    }
+    if (x % 12 == 4) {
+        self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    }
+    if (x % 12 == 5) {
+        self.navigationController.navigationBar.barTintColor = [UIColor greenColor];
+    }
+    if (x % 12 == 6) {
+        self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
+    }
+    if (x % 12 == 7) {
+        self.navigationController.navigationBar.barTintColor = [UIColor cyanColor];
+    }
+    if (x % 12 == 8) {
+        self.navigationController.navigationBar.barTintColor = [UIColor yellowColor];
+    }
+    if (x % 12 == 9) {
+        self.navigationController.navigationBar.barTintColor = [UIColor magentaColor];
+    }
+    if (x % 12 == 10) {
+        self.navigationController.navigationBar.barTintColor = [UIColor orangeColor];
+    }
+    if (x % 12 == 11) {
+        self.navigationController.navigationBar.barTintColor = [UIColor purpleColor];
     }
     
 //    Singleton *s = [Singleton sharedInstance];
